@@ -1,5 +1,5 @@
 time=$(date "+%Y-%m-%d-%H:%M:%S")
-处理数据
+# 处理数据
 python data.py --mode valid --logfile "${time}.log"
 
 # itemcf 召回
